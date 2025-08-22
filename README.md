@@ -17,13 +17,13 @@ Mealmate is a website developed to make the lives of poeple or familes, helps bu
 3. Edit the `styles.css` file if you want to customize the look.
 
 ## Project Structure
--index.html
--planner.html
--recipes.html
--about.html
--contact.html
--styles.css
--README.md
+- index.html
+- planner.html
+- recipes.html
+- about.html
+- contact.html
+- styles.css
+- README.md
 
 ##  References
 - Mozilla Developer Network (2025). *HTML Elements Reference*. Available at: [https://developer.mozilla.org/en-US/docs/Web/HTML/Element](https://developer.mozilla.org/en-US/docs/Web/HTML/Element)  
