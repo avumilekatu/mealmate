@@ -3,45 +3,69 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>MealMate - Planner</title>
+  <title>Meal Planner - MealMate</title>
   <link rel="stylesheet" href="styles.css">
-    <!--This is the style css files to the html code-->
 </head>
 <body>
   <header>
-    <h1>Meal Planner</h1>
+    <h1>MealMate</h1>
     <nav>
- <!--These are for navigation throughout the website-->
-      <a href="home.html">Home</a>
+      <a href="index.html">Home</a>
       <a href="planner.html" class="active">Planner</a>
       <a href="recipes.html">Recipes</a>
       <a href="about.html">About</a>
       <a href="contact.html">Contact</a>
     </nav>
   </header>
+  <main>
+    <section class="planner">
+      <h2>Weekly Meal Planner</h2>
+      <p>Plan your meals for the week and stay on track with healthy eating.</p>
 
-  <section class="content">
-    <h2>Weekly Meal Planner</h2>
-    <p>Insert meals that you have planned and save bellow.</p>
-    <form id="plannerForm">
-      <label for="monday">Monday</label>
-      <input type="text" id="monday" placeholder="E.g., Chicken Salad">
+      <form class="planner-form">
+        <div class="day">
+          <label for="monday">Monday</label>
+          <input type="text" id="monday" placeholder="Enter meal for Monday">
+        </div>
 
-      <label for="tuesday">Tuesday</label>
-      <input type="text" id="tuesday" placeholder="E.g., Pasta & Veggies">
+        <div class="day">
+          <label for="tuesday">Tuesday</label>
+          <input type="text" id="tuesday" placeholder="Enter meal for Tuesday">
+        </div>
 
-      <label for="wednesday">Wednesday</label>
-      <input type="text" id="wednesday" placeholder="E.g., Stir Fry">
+        <div class="day">
+          <label for="wednesday">Wednesday</label>
+          <input type="text" id="wednesday" placeholder="Enter meal for Wednesday">
+        </div>
 
-      <button type="button" onclick="savePlan()">Save Plan</button>
-    <!--These are for navigation throughout the website-->
-    </form>
-  </section>
+        <div class="day">
+          <label for="thursday">Thursday</label>
+          <input type="text" id="thursday" placeholder="Enter meal for Thursday">
+        </div>
+
+        <div class="day">
+          <label for="friday">Friday</label>
+          <input type="text" id="friday" placeholder="Enter meal for Friday">
+        </div>
+
+        <div class="day">
+          <label for="saturday">Saturday</label>
+          <input type="text" id="saturday" placeholder="Enter meal for Saturday">
+        </div>
+
+        <div class="day">
+          <label for="sunday">Sunday</label>
+          <input type="text" id="sunday" placeholder="Enter meal for Sunday">
+        </div>
+
+        <button type="submit">Save Weekly Plan</button>
+      </form>
+    </section>
+  </main>
 
   <footer>
-    <p>&copy; 2025 MealMate. All rights reserved.</p>
+    <p>&copy; 2025 MealMate | Designed for Assignment</p>
   </footer>
-    <!--To avoid any coprights-->
-  <script src="app.js"></script>
+
 </body>
 </html>
