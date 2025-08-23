@@ -1,4 +1,5 @@
 /* Reset & Base */
+
 * {
     margin: 0;
     padding: 0;
@@ -268,9 +269,4 @@ footer {
     text-align: center;
     padding: 1rem;
     margin-top: 2rem;
-  }
-
-  References for structure and styling concepts:
-  - W3Schools (2025). CSS Basics and Reset. https://www.w3schools.com/css/
-  - MDN Web Docs (2025). CSS Grid Layout. https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Grid_Layout
-  - Smith, J. (2024). Flexbox Navigation Bar Example. CodePen. https://codepen.io/
+  }  
