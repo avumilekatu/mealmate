@@ -123,7 +123,7 @@
   }
   .card p {
     color: #555;
-  }/* ========== GLOBAL STYLES ========== */
+  }/*GLOBAL STYLES*/
 * {
   margin: 0;
   padding: 0;
@@ -137,7 +137,7 @@ body {
   line-height: 1.6;
 }
 
-/* ========== HEADER & NAVIGATION ========== */
+/*HEADER & NAVIGATION  */
 header {
   background: #4CAF50;
   color: #fff;
@@ -164,7 +164,7 @@ nav a.active {
   color: #ffd700;
 }
 
-/* ========== MAIN CONTENT ========== */
+/*MAIN CONTENT */
 main {
   max-width: 1000px;
   margin: 2rem auto;
@@ -177,7 +177,7 @@ h2 {
   font-size: 1.6rem;
 }
 
-/* ========== PLANNER FORM ========== */
+/*PLANNER FORM*/
 .planner-form {
   background: #fff;
   padding: 2rem;
@@ -269,4 +269,8 @@ footer {
     padding: 1rem;
     margin-top: 2rem;
   }
-  
+
+  References for structure and styling concepts:
+  - W3Schools (2025). CSS Basics and Reset. https://www.w3schools.com/css/
+  - MDN Web Docs (2025). CSS Grid Layout. https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Grid_Layout
+  - Smith, J. (2024). Flexbox Navigation Bar Example. CodePen. https://codepen.io/
